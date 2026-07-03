@@ -1,0 +1,10 @@
+services:
+  ad-dashboard:
+    build:
+      context: ./ad-dashboard
+      dockerfile: Dockerfile
+    image: ad-iso27001-dashboard:latest
+    container_name: ad-iso27001-dashboard
+    ports:
+      - "8080:8080"
+    restart: unless-stopped

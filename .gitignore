@@ -1,0 +1,37 @@
+# AD audit output - contains real user data (PII, account names, domain info). Never commit.
+/report/
+
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production build
+ad-dashboard/build/
+
+# Testing
+/coverage
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Local Claude Code tooling config
+.claude/
